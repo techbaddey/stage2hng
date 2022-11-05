@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.Main {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-two {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-form {
+  width: fit-content;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.chck {
+  display: flex;
+}
+
+.half {
+  width: 48.5%;
+}
+
+input {
+  padding: 7px;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#message {
+  padding-bottom: 75px;
+  margin-bottom: 20px;
+}
+
+#btn__submit {
+  width: 100%;
+  padding: 8px;
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+#profile__img {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#back {
+  width: 25px;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+#menu {
+  display: none;
+}
+
+#twitter {
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.Mainlinks {
+  margin-top: 40px;
+}
+
+.Links {
+  width: 90vw;
+  padding: 17px 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgrey;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.icons {
+  margin: 35px;
+}
+
+.icon {
+  width: 27px;
+  margin: 12px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 150px;
+}
+
+.text {
+  color: darkgrey;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Links {
+    width: 80vw;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 90px;
+  }
+
+  #back {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    width: 25px;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+  }
+
+  .respon {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
